@@ -31,11 +31,10 @@ take O(n log n), on average.
 
 3. A modified version of quicksort that performs the partition just like regular quicksort and only searches
 for the k-th smallest element in the appropriate sub-array. This should take O(n), on average.
+
 For each method, experiment with various values of n and plot an estimate of the running times. For simplicity,
 use k = n+1 for all experiments (that is, find the median). Since running times vary depending on circum- 2
-stances that are independent of the method being evaluated (other applications running, garbage collection, O.S.
-operations, cache misses, etc.), we will use a global counter to keep track of the number of comparisons made by 
-each algorithm and use that operation count as an estimate of the running time.
+stances that are independent of the method being evaluated (other applications running, garbage collection, O.S. operations, cache misses, etc.), we will use a global counter to keep track of the number of comparisons made by each algorithm and use that operation count as an estimate of the running time.
 
 Write a report describing your work.
 
